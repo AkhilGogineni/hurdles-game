@@ -49,6 +49,8 @@ class Game {
         invisibleGround2 = createSprite(100, 750, displayWidth * 5, 20);
         invisibleGround2.setCollider("rectangle", 0, 0);
         invisibleGround2.debug = true;
+        runner1.collide(invisibleGround1);
+        runner2.collide(invisibleGround2);
 
 
         // invisibleGround2.visible = false;
