@@ -77,9 +77,7 @@ class Game {
             var x = 50;
 
 
-            runner1.collide(invisibleGround1);
-            runner2.collide(invisibleGround2);
-
+            
 
             for (var plr in allPlayers) {
                 index = index + 1;
